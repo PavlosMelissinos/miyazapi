@@ -1,0 +1,5 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        io.github.clojure/tools.deps.alpha {:git/sha "e4fb92eef724fa39e29b39cc2b1a850567d490dd"}}
+ :aliases
+ {:dev {:extra-paths ["test"]}}}
